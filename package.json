@@ -3,10 +3,7 @@
   "version": "1.0.0",
   "description": "Contains all resources for iterative.cloud - a website hosted on AWS that describe how it was built - step by step!",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "commit": "node_modules/.bin/commit"
-  },
+  "scripts": {},
   "husky": {
     "hooks": {
       "commit-msg": "node_modules/.bin/commitlint -E HUSKY_GIT_PARAMS"
@@ -23,10 +20,11 @@
   },
   "homepage": "https://github.com/AlexandreDeRiemaecker/iterativecloud#readme",
   "devDependencies": {
-    "@commitlint/cli": "^8.2.0",
-    "@commitlint/config-conventional": "^8.2.0",
-    "@commitlint/prompt-cli": "^8.2.0",
+    "@commitlint/cli": "^8.3.5",
+    "@commitlint/config-conventional": "^8.3.4",
+    "commitlint": "^8.3.5",
     "husky": "^3.1.0",
-    "typescript": "^3.7.3"
-  }
+    "typescript": "^3.8.3"
+  },
+  "dependencies": {}
 }
